@@ -1,5 +1,5 @@
 ## 部署
-1. 点击 [![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/onplus/shadowsocks-heroku/tree/re)，[一键部署到heroku](https://heroku.com/deploy?template=https://github.com/onplus/shadowsocks-heroku/tree/re)
+1. 点击 [![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/onplus/shadowsocks-heroku/tree/re)
   
     也可以选择另一个版本的服务端[shadowsocks-websocket-python](https://github.com/onplus/shadowsocks-websocket-python/blob/deploy/README.md)
 
@@ -10,6 +10,21 @@
 [](https://user-images.githubusercontent.com/31188782/31310674-e783c9e4-abce-11e7-87d2-48f328e74169.JPG)
 
 支持的加密算法类型如下https://github.com/mrluanma/shadowsocks-heroku#supported-ciphers
+- rc4
+- rc4-md5
+- table
+- bf-cfb
+- des-cfb
+- rc2-cfb
+- idea-cfb
+- seed-cfb
+- cast5-cfb
+- aes-128-cfb
+- aes-192-cfb
+- aes-256-cfb
+- camellia-256-cfb
+- camellia-192-cfb
+- camellia-128-cfb
 
 ## 启动本地 Client
 1. 下载release https://github.com/onplus/shadowsocks-heroku/releases （[备份](https://github.com/onplus/archive/tree/master/tool)）
