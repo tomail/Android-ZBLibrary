@@ -1,6 +1,6 @@
 {
-  "name": "shadowsocks-heroku",
-  "description": "shadowsocks-heroku",
+  "name": "Android-ZBLibrary",
+  "description": "Android-ZBLibrary",
   "env": {
     "METHOD": {
       "description": "加密算法",
